@@ -1,0 +1,22 @@
+@import "reset";
+@import "fonts";
+
+// UI
+
+// BLOCKS
+
+
+body {
+  margin: 0;
+  padding: 0;
+  color: #343B4C;
+  background: #ECEEF2;
+  font-size: 16px;
+  font-family: 'Open Sans';
+}
+
+.container {
+  max-width: 1320px;
+  margin: 0 auto;
+  padding: 0 20px;
+}
