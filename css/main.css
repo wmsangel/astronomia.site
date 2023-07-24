@@ -947,3 +947,73 @@ ul.breadcrumbs {
   @media (max-width: 480px) {
     .sort-select {
       width: 100%; } }
+
+/* -----------> Capital city */
+.capital-city-list-top {
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: #8D96B2;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #e7e7e7; }
+  .capital-city-list-top__capital {
+    width: 25%; }
+    @media (max-width: 767px) {
+      .capital-city-list-top__capital {
+        width: 40%; }
+        .capital-city-list-top__capital:nth-child(3) {
+          display: none; } }
+  .capital-city-list-top__country {
+    width: 25%; }
+    @media (max-width: 767px) {
+      .capital-city-list-top__country {
+        width: 60%; }
+        .capital-city-list-top__country:nth-child(4) {
+          display: none; } }
+
+.capital-country-row {
+  display: flex;
+  flex-wrap: wrap; }
+
+.capital-country-item {
+  display: flex;
+  width: 50%;
+  position: relative;
+  margin-bottom: 18px; }
+  .capital-country-item__capital {
+    width: 50%; }
+    @media (max-width: 767px) {
+      .capital-country-item__capital {
+        width: 40%; } }
+  .capital-country-item__country {
+    width: 50%;
+    display: flex;
+    align-items: center; }
+    .capital-country-item__country .flag {
+      margin-right: 8px; }
+    @media (max-width: 767px) {
+      .capital-country-item__country {
+        width: 60%; } }
+  .capital-country-item__link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0; }
+  .capital-country-item:hover {
+    color: #849FFF; }
+  .capital-country-item:focus {
+    color: #315EFB; }
+  @media (max-width: 767px) {
+    .capital-country-item {
+      width: 100%; } }
+
+@media (max-width: 600px) {
+  .capital-city-section {
+    overflow: auto;
+    margin-right: -20px; }
+    .capital-city-section section {
+      position: relative;
+      width: 600px; } }

@@ -1193,3 +1193,104 @@ ul.breadcrumbs {
     width: 100%;
   }
 }
+
+
+/* -----------> Capital city */
+.capital-city-list-top {
+  display: flex;
+  font-size: 14px;
+  font-style: normal;
+  font-weight: 400;
+  color: #8D96B2;
+  padding-bottom: 20px;
+  margin-bottom: 40px;
+  border-bottom: 1px solid #e7e7e7;
+
+  &__capital {
+    width: 25%;
+
+    @media (max-width: 767px) {
+      width: 40%;
+      &:nth-child(3) {
+        display: none;
+      }
+    }
+  }
+
+  &__country {
+    width: 25%;
+
+    @media (max-width: 767px) {
+      width: 60%;
+      &:nth-child(4) {
+        display: none;
+      }
+    }
+  }
+}
+
+.capital-country-row {
+  display: flex;
+  flex-wrap: wrap;
+}
+
+.capital-country-item {
+  display: flex;
+  width: 50%;
+  position: relative;
+  margin-bottom: 18px;
+
+  &__capital {
+    width: 50%;
+
+    @media (max-width: 767px) {
+      width: 40%;
+    }
+  }
+
+  &__country {
+    width: 50%;
+    display: flex;
+    align-items: center;
+
+    .flag {
+      margin-right: 8px;
+    }
+
+    @media (max-width: 767px) {
+      width: 60%;
+    }
+  }
+
+  &__link {
+    position: absolute;
+    top: 0;
+    left: 0;
+    right: 0;
+    bottom: 0;
+  }
+
+  &:hover {
+    color: #849FFF;
+  }
+
+  &:focus {
+    color: #315EFB;
+  }
+
+  @media (max-width: 767px) {
+    width: 100%;
+  }
+}
+
+.capital-city-section {
+  @media (max-width: 600px) {
+    overflow: auto;
+    margin-right: -20px;
+
+    section {
+      position: relative;
+      width: 600px;
+    }
+  }
+}
