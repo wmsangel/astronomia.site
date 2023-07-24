@@ -6,20 +6,1402 @@
           content="width=device-width, user-scalable=no, initial-scale=1.0, maximum-scale=1.0, minimum-scale=1.0">
     <meta http-equiv="X-UA-Compatible" content="ie=edge">
     <title>Главная - Астрономия</title>
+
+<!--    <meta http-equiv="refresh" content="5">-->
     <link rel="stylesheet" href="css/main.css">
 </head>
 <body>
 
+<div class="mobile-menu js-mobile-menu">
+    <div class="mobile-menu-top">
+        <div class="mobile-menu__logo">
+            <img src="img/logo.png" srcset="img/logo@2x.png 2x" alt="">
+        </div>
+        <div class="mobile-menu__close">
+            <button class="js-mobile-menu-close mobile-menu-close"></button>
+        </div>
+    </div>
+
+    <ul class="mobile-menu__links">
+        <li><a href="#" class="mobile-menu__links-item">Геомагнитная обстановка</a></li>
+        <li><a href="#" class="mobile-menu__links-item">Астрономия</a></li>
+    </ul>
+    <ul class="mobile-menu__links">
+        <li><a href="#" class="mobile-menu__links-item">Страны мира</a></li>
+        <li><a href="#" class="mobile-menu__links-item">Столицы мира</a></li>
+    </ul>
+</div>
+
 <header>
     <div class="container">
 
+        <div class="mobile-header">
+            <div class="mobile-header-search js-mobile-header-search">
+                <button class="mobile-header-search__btn js-mobile-search"></button>
+                <form action="">
+                    <input class="mobile-header-search__input" type="search" placeholder="Город или район">
+                </form>
+                <button class="mobile-header-search__close js-mobile-search-close"></button>
+            </div>
+            <div class="mobile-header-logo">
+                <img src="img/logo.png" srcset="img/logo@2x.png 2x" alt="">
+            </div>
+            <button class="js-mobile-menu-btn mobile-header__btn"></button>
+        </div>
+
+        <div class="header">
+            <div class="header-logo">
+                <img src="img/logo.png" srcset="img/logo@2x.png 2x" alt="">
+            </div>
+
+            <ul class="header-nav">
+                <li class="header-nav__item">
+                    <a href="#" class="header-nav__link">Геомагнитная обстановка</a>
+                </li>
+                <li class="header-nav__item">
+                    <a href="#" class="header-nav__link">Астрономия</a>
+                </li>
+            </ul>
+
+            <div class="header-search">
+                <form action="">
+                    <input class="header-search__input" type="search" placeholder="Город или район">
+                    <input class="header-search__submit" type="button">
+                </form>
+            </div>
+        </div>
     </div>
 </header>
 
+<main>
+    <div class="container">
+        <div class="row row--sidebar">
+            <div class="col-main">
+                <section>
+                    <div class="section-title">
+                        Геомагнитная обстановка в Москве
+                    </div>
+
+                    <div class="search-city">
+                        <form action="">
+                            <input class="search-city__input" type="text" placeholder="Поиск города или места">
+                        </form>
+                    </div>
+
+                    <div class="weather-status-rate">
+                        <div class="weather-status-rate__value">
+                            <div class="weather-rate weather-rate--2 is-small">2</div>
+                        </div>
+                        <div class="weather-status-rate__text">Сейчас небольшие бури</div>
+                    </div>
+
+                    <div class="weather-row">
+                        <div class="weather-col">
+                            <div class="weather-col__date">30 мая, Вт</div>
+                            <div class="weather-col__time">21:00</div>
+                            <div class="weather-col__rate">
+                                <div class="weather-rate weather-rate--1">1</div>
+                            </div>
+                        </div>
+                        <div class="weather-col">
+                            <div class="weather-col__date">30 мая, Вт</div>
+                            <div class="weather-col__time">21:00</div>
+                            <div class="weather-col__rate">
+                                <div class="weather-rate weather-rate--2">2</div>
+                            </div>
+                        </div>
+                        <div class="weather-col">
+                            <div class="weather-col__date">30 мая, Вт</div>
+                            <div class="weather-col__time">21:00</div>
+                            <div class="weather-col__rate">
+                                <div class="weather-rate weather-rate--3">3</div>
+                            </div>
+                        </div>
+                        <div class="weather-col">
+                            <div class="weather-col__date">30 мая, Вт</div>
+                            <div class="weather-col__time">21:00</div>
+                            <div class="weather-col__rate">
+                                <div class="weather-rate weather-rate--4">4</div>
+                            </div>
+                        </div>
+                        <div class="weather-col">
+                            <div class="weather-col__date">30 мая, Вт</div>
+                            <div class="weather-col__time">21:00</div>
+                            <div class="weather-col__rate">
+                                <div class="weather-rate weather-rate--5">5</div>
+                            </div>
+                        </div>
+                        <div class="weather-col">
+                            <div class="weather-col__date">30 мая, Вт</div>
+                            <div class="weather-col__time">21:00</div>
+                            <div class="weather-col__rate">
+                                <div class="weather-rate weather-rate--6">6</div>
+                            </div>
+                        </div>
+                        <div class="weather-col">
+                            <div class="weather-col__date">30 мая, Вт</div>
+                            <div class="weather-col__time">21:00</div>
+                            <div class="weather-col__rate">
+                                <div class="weather-rate weather-rate--7">7</div>
+                            </div>
+                        </div>
+                    </div>
+
+                    <a href="#" class="link-more">Подробнее</a>
+
+                    <div class="weather-annotation">
+                        <div class="weather-annotation__col">
+                            <div class="weather-rate weather-rate--0 is-small">0</div>
+                            Спокойно
+                        </div>
+                        <div class="weather-annotation__col">
+                            <div class="weather-rate weather-rate--1 is-small">1</div>
+                            Нет ощутимых бурь
+                        </div>
+                        <div class="weather-annotation__col">
+                            <div class="weather-rate weather-rate--2 is-small">2</div>
+                            Небольшие бури
+                        </div>
+                        <div class="weather-annotation__col">
+                            <div class="weather-rate weather-rate--3 is-small">3</div>
+                            Слабые бури
+                        </div>
+                        <div class="weather-annotation__col">
+                            <div class="weather-rate weather-rate--4 is-small">4</div>
+                            Малые бури
+                        </div>
+                        <div class="weather-annotation__col">
+                            <div class="weather-rate weather-rate--5 is-small">5</div>
+                            Умеренные бури
+                        </div>
+                        <div class="weather-annotation__col">
+                            <div class="weather-rate weather-rate--6 is-small">6</div>
+                            Сильные бури
+                        </div>
+                        <div class="weather-annotation__col">
+                            <div class="weather-rate weather-rate--7 is-small">7</div>
+                            Сильные бури
+                        </div>
+                        <div class="weather-annotation__col">
+                            <div class="weather-rate weather-rate--8 is-small">8</div>
+                            Экстремальные бури
+                        </div>
+                        <div class="weather-annotation__col">
+                            <div class="weather-rate weather-rate--9 is-small">9</div>
+                            Максимальные бури
+                        </div>
+                    </div>
+                </section>
+                <section>
+                    <div class="section-title">
+                        Астрономия по городам
+
+                        <div class="section-title__btn desktop-only">
+                            <a href="#" class="btn btn-blue">Все города</a>
+                        </div>
+                    </div>
+
+                    <div class="weather-by-city swiper js-weather-city-slider">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="weather-by-city-item">
+                                <a href="#" class="weather-by-city-item__link"></a>
+                                <div class="weather-by-city-item__city">
+                                    <span>Адлер</span>
+                                </div>
+                                <div class="weather-by-city-item__temperature">
+                                    +13°
+                                </div>
+                                <div class="weather-by-city-item__rate">
+                                    <div class="weather-rate weather-rate--0 is-small">0</div>
+                                </div>
+                            </div>
+                            <div class="weather-by-city-item">
+                                <a href="#" class="weather-by-city-item__link"></a>
+                                <div class="weather-by-city-item__city">
+                                    <span>Анапа</span>
+                                </div>
+                                <div class="weather-by-city-item__temperature">
+                                    +16°
+                                </div>
+                                <div class="weather-by-city-item__rate">
+                                    <div class="weather-rate weather-rate--1 is-small">1</div>
+                                </div>
+                            </div>
+                            <div class="weather-by-city-item">
+                                <a href="#" class="weather-by-city-item__link"></a>
+                                <div class="weather-by-city-item__city">
+                                    <span>Архангельск</span>
+                                </div>
+                                <div class="weather-by-city-item__temperature">
+                                    +19°
+                                </div>
+                                <div class="weather-by-city-item__rate">
+                                    <div class="weather-rate weather-rate--2 is-small">2</div>
+                                </div>
+                            </div>
+                            <div class="weather-by-city-item">
+                                <a href="#" class="weather-by-city-item__link"></a>
+                                <div class="weather-by-city-item__city">
+                                    <span>Барнаул</span>
+                                </div>
+                                <div class="weather-by-city-item__temperature">
+                                    +13°
+                                </div>
+                                <div class="weather-by-city-item__rate">
+                                    <div class="weather-rate weather-rate--7 is-small">7</div>
+                                </div>
+                            </div>
+                            <div class="weather-by-city-item">
+                                <a href="#" class="weather-by-city-item__link"></a>
+                                <div class="weather-by-city-item__city">
+                                    <span>Барнаул</span>
+                                </div>
+                                <div class="weather-by-city-item__temperature">
+                                    +13°
+                                </div>
+                                <div class="weather-by-city-item__rate">
+                                    <div class="weather-rate weather-rate--7 is-small">7</div>
+                                </div>
+                            </div>
+                            <div class="weather-by-city-item">
+                                <a href="#" class="weather-by-city-item__link"></a>
+                                <div class="weather-by-city-item__city">
+                                    <span>Анапа</span>
+                                </div>
+                                <div class="weather-by-city-item__temperature">
+                                    +16°
+                                </div>
+                                <div class="weather-by-city-item__rate">
+                                    <div class="weather-rate weather-rate--1 is-small">1</div>
+                                </div>
+                            </div>
+                            <div class="weather-by-city-item">
+                                <a href="#" class="weather-by-city-item__link"></a>
+                                <div class="weather-by-city-item__city">
+                                    <span>Архангельск</span>
+                                </div>
+                                <div class="weather-by-city-item__temperature">
+                                    +19°
+                                </div>
+                                <div class="weather-by-city-item__rate">
+                                    <div class="weather-rate weather-rate--2 is-small">2</div>
+                                </div>
+                            </div>
+                            <div class="weather-by-city-item">
+                                <a href="#" class="weather-by-city-item__link"></a>
+                                <div class="weather-by-city-item__city">
+                                    <span>Барнаул</span>
+                                </div>
+                                <div class="weather-by-city-item__temperature">
+                                    +13°
+                                </div>
+                                <div class="weather-by-city-item__rate">
+                                    <div class="weather-rate weather-rate--7 is-small">7</div>
+                                </div>
+                            </div>
+                            <div class="weather-by-city-item">
+                                <a href="#" class="weather-by-city-item__link"></a>
+                                <div class="weather-by-city-item__city">
+                                    <span>Барнаул</span>
+                                </div>
+                                <div class="weather-by-city-item__temperature">
+                                    +13°
+                                </div>
+                                <div class="weather-by-city-item__rate">
+                                    <div class="weather-rate weather-rate--7 is-small">7</div>
+                                </div>
+                            </div>
+                        </div>
+                          <div class="swiper-slide">
+                              <div class="weather-by-city-item">
+                                  <a href="#" class="weather-by-city-item__link"></a>
+                                  <div class="weather-by-city-item__city">
+                                      <span>Анапа</span>
+                                  </div>
+                                  <div class="weather-by-city-item__temperature">
+                                      +16°
+                                  </div>
+                                  <div class="weather-by-city-item__rate">
+                                      <div class="weather-rate weather-rate--1 is-small">1</div>
+                                  </div>
+                              </div>
+                              <div class="weather-by-city-item">
+                                  <a href="#" class="weather-by-city-item__link"></a>
+                                  <div class="weather-by-city-item__city">
+                                      <span>Архангельск</span>
+                                  </div>
+                                  <div class="weather-by-city-item__temperature">
+                                      +19°
+                                  </div>
+                                  <div class="weather-by-city-item__rate">
+                                      <div class="weather-rate weather-rate--2 is-small">2</div>
+                                  </div>
+                              </div>
+                              <div class="weather-by-city-item">
+                                  <a href="#" class="weather-by-city-item__link"></a>
+                                  <div class="weather-by-city-item__city">
+                                      <span>Барнаул</span>
+                                  </div>
+                                  <div class="weather-by-city-item__temperature">
+                                      +13°
+                                  </div>
+                                  <div class="weather-by-city-item__rate">
+                                      <div class="weather-rate weather-rate--7 is-small">7</div>
+                                  </div>
+                              </div>
+                              <div class="weather-by-city-item">
+                                  <a href="#" class="weather-by-city-item__link"></a>
+                                  <div class="weather-by-city-item__city">
+                                      <span>Барнаул</span>
+                                  </div>
+                                  <div class="weather-by-city-item__temperature">
+                                      +13°
+                                  </div>
+                                  <div class="weather-by-city-item__rate">
+                                      <div class="weather-rate weather-rate--7 is-small">7</div>
+                                  </div>
+                              </div>
+                              <div class="weather-by-city-item">
+                                  <a href="#" class="weather-by-city-item__link"></a>
+                                  <div class="weather-by-city-item__city">
+                                      <span>Анапа</span>
+                                  </div>
+                                  <div class="weather-by-city-item__temperature">
+                                      +16°
+                                  </div>
+                                  <div class="weather-by-city-item__rate">
+                                      <div class="weather-rate weather-rate--1 is-small">1</div>
+                                  </div>
+                              </div>
+                              <div class="weather-by-city-item">
+                                  <a href="#" class="weather-by-city-item__link"></a>
+                                  <div class="weather-by-city-item__city">
+                                      <span>Архангельск</span>
+                                  </div>
+                                  <div class="weather-by-city-item__temperature">
+                                      +19°
+                                  </div>
+                                  <div class="weather-by-city-item__rate">
+                                      <div class="weather-rate weather-rate--2 is-small">2</div>
+                                  </div>
+                              </div>
+                              <div class="weather-by-city-item">
+                                  <a href="#" class="weather-by-city-item__link"></a>
+                                  <div class="weather-by-city-item__city">
+                                      <span>Барнаул</span>
+                                  </div>
+                                  <div class="weather-by-city-item__temperature">
+                                      +13°
+                                  </div>
+                                  <div class="weather-by-city-item__rate">
+                                      <div class="weather-rate weather-rate--7 is-small">7</div>
+                                  </div>
+                              </div>
+                              <div class="weather-by-city-item">
+                                  <a href="#" class="weather-by-city-item__link"></a>
+                                  <div class="weather-by-city-item__city">
+                                      <span>Барнаул</span>
+                                  </div>
+                                  <div class="weather-by-city-item__temperature">
+                                      +13°
+                                  </div>
+                                  <div class="weather-by-city-item__rate">
+                                      <div class="weather-rate weather-rate--7 is-small">7</div>
+                                  </div>
+                              </div>
+                              <div class="weather-by-city-item">
+                                  <a href="#" class="weather-by-city-item__link"></a>
+                                  <div class="weather-by-city-item__city">
+                                      <span>Анапа</span>
+                                  </div>
+                                  <div class="weather-by-city-item__temperature">
+                                      +16°
+                                  </div>
+                                  <div class="weather-by-city-item__rate">
+                                      <div class="weather-rate weather-rate--1 is-small">1</div>
+                                  </div>
+                              </div>
+                          </div>
+                          <div class="swiper-slide">
+                              <div class="weather-by-city-item">
+                                  <a href="#" class="weather-by-city-item__link"></a>
+                                  <div class="weather-by-city-item__city">
+                                      <span>Архангельск</span>
+                                  </div>
+                                  <div class="weather-by-city-item__temperature">
+                                      +19°
+                                  </div>
+                                  <div class="weather-by-city-item__rate">
+                                      <div class="weather-rate weather-rate--2 is-small">2</div>
+                                  </div>
+                              </div>
+                              <div class="weather-by-city-item">
+                                  <a href="#" class="weather-by-city-item__link"></a>
+                                  <div class="weather-by-city-item__city">
+                                      <span>Барнаул</span>
+                                  </div>
+                                  <div class="weather-by-city-item__temperature">
+                                      +13°
+                                  </div>
+                                  <div class="weather-by-city-item__rate">
+                                      <div class="weather-rate weather-rate--7 is-small">7</div>
+                                  </div>
+                              </div>
+                              <div class="weather-by-city-item">
+                                  <a href="#" class="weather-by-city-item__link"></a>
+                                  <div class="weather-by-city-item__city">
+                                      <span>Барнаул</span>
+                                  </div>
+                                  <div class="weather-by-city-item__temperature">
+                                      +13°
+                                  </div>
+                                  <div class="weather-by-city-item__rate">
+                                      <div class="weather-rate weather-rate--7 is-small">7</div>
+                                  </div>
+                              </div>
+                              <div class="weather-by-city-item">
+                                  <a href="#" class="weather-by-city-item__link"></a>
+                                  <div class="weather-by-city-item__city">
+                                      <span>Анапа</span>
+                                  </div>
+                                  <div class="weather-by-city-item__temperature">
+                                      +16°
+                                  </div>
+                                  <div class="weather-by-city-item__rate">
+                                      <div class="weather-rate weather-rate--1 is-small">1</div>
+                                  </div>
+                              </div>
+                              <div class="weather-by-city-item">
+                                  <a href="#" class="weather-by-city-item__link"></a>
+                                  <div class="weather-by-city-item__city">
+                                      <span>Архангельск</span>
+                                  </div>
+                                  <div class="weather-by-city-item__temperature">
+                                      +19°
+                                  </div>
+                                  <div class="weather-by-city-item__rate">
+                                      <div class="weather-rate weather-rate--2 is-small">2</div>
+                                  </div>
+                              </div>
+                              <div class="weather-by-city-item">
+                                  <a href="#" class="weather-by-city-item__link"></a>
+                                  <div class="weather-by-city-item__city">
+                                      <span>Барнаул</span>
+                                  </div>
+                                  <div class="weather-by-city-item__temperature">
+                                      +13°
+                                  </div>
+                                  <div class="weather-by-city-item__rate">
+                                      <div class="weather-rate weather-rate--7 is-small">7</div>
+                                  </div>
+                              </div>
+                              <div class="weather-by-city-item">
+                                  <a href="#" class="weather-by-city-item__link"></a>
+                                  <div class="weather-by-city-item__city">
+                                      <span>Барнаул</span>
+                                  </div>
+                                  <div class="weather-by-city-item__temperature">
+                                      +13°
+                                  </div>
+                                  <div class="weather-by-city-item__rate">
+                                      <div class="weather-rate weather-rate--7 is-small">7</div>
+                                  </div>
+                              </div>
+                              <div class="weather-by-city-item">
+                                  <a href="#" class="weather-by-city-item__link"></a>
+                                  <div class="weather-by-city-item__city">
+                                      <span>Барнаул</span>
+                                  </div>
+                                  <div class="weather-by-city-item__temperature">
+                                      +13°
+                                  </div>
+                                  <div class="weather-by-city-item__rate">
+                                      <div class="weather-rate weather-rate--7 is-small">7</div>
+                                  </div>
+                              </div>
+                              <div class="weather-by-city-item">
+                                  <a href="#" class="weather-by-city-item__link"></a>
+                                  <div class="weather-by-city-item__city">
+                                      <span>Анапа</span>
+                                  </div>
+                                  <div class="weather-by-city-item__temperature">
+                                      +16°
+                                  </div>
+                                  <div class="weather-by-city-item__rate">
+                                      <div class="weather-rate weather-rate--1 is-small">1</div>
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-pagination"></div>
+                    </div>
+
+                    <div class="section-footer mobile-only">
+                        <a href="#" class="btn btn-blue">Все города</a>
+                    </div>
+                </section>
+                <section>
+                    <div class="section-title">
+                        Астрономия в странах мира
+                        <div class="section-title__btn desktop-only">
+                            <a href="#" class="btn btn-blue">Все страны</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper country-list js-country-list">
+                      <div class="swiper-wrapper">
+                        <div class="swiper-slide">
+                            <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                            <div class="country-list-item__flag">
+                                <div class="flag flag--austria"></div>
+                            </div>
+                            <div class="country-list-item__name">
+                                Австрия
+                            </div>
+                            </div>
+                            <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                            <div class="country-list-item__flag">
+                                <div class="flag flag--argentina"></div>
+                            </div>
+                            <div class="country-list-item__name">
+                                Аргентина
+                            </div>
+                            </div>
+                            <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                            <div class="country-list-item__flag">
+                                <div class="flag flag--belarus"></div>
+                            </div>
+                            <div class="country-list-item__name">
+                                Беларусь
+                            </div>
+                            </div>
+                            <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                            <div class="country-list-item__flag">
+                                <div class="flag flag--bolgaria"></div>
+                            </div>
+                            <div class="country-list-item__name">
+                                Болгария
+                            </div>
+                            </div>
+                            <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                            <div class="country-list-item__flag">
+                                <div class="flag flag--brazil"></div>
+                            </div>
+                            <div class="country-list-item__name">
+                                Бразилия
+                            </div>
+                            </div>
+                            <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                        <div class="country-list-item__flag">
+                            <div class="flag flag--vietnam"></div>
+                        </div>
+                        <div class="country-list-item__name">
+                            Вьетнам
+                        </div>
+                        </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                              <div class="country-list-item__flag">
+                                  <div class="flag flag--austria"></div>
+                              </div>
+                              <div class="country-list-item__name">
+                                  Австрия
+                              </div>
+                            </div>
+                            <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                              <div class="country-list-item__flag">
+                                  <div class="flag flag--argentina"></div>
+                              </div>
+                              <div class="country-list-item__name">
+                                  Аргентина
+                              </div>
+                            </div>
+                            <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                              <div class="country-list-item__flag">
+                                  <div class="flag flag--belarus"></div>
+                              </div>
+                              <div class="country-list-item__name">
+                                  Беларусь
+                              </div>
+                            </div>
+                            <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                              <div class="country-list-item__flag">
+                                  <div class="flag flag--bolgaria"></div>
+                              </div>
+                              <div class="country-list-item__name">
+                                  Болгария
+                              </div>
+                            </div>
+                            <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                              <div class="country-list-item__flag">
+                                  <div class="flag flag--brazil"></div>
+                              </div>
+                              <div class="country-list-item__name">
+                                  Бразилия
+                              </div>
+                            </div>
+                            <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                          <div class="country-list-item__flag">
+                              <div class="flag flag--vietnam"></div>
+                          </div>
+                          <div class="country-list-item__name">
+                              Вьетнам
+                          </div>
+                        </div>
+                        </div>
+                        <div class="swiper-slide">
+                            <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                              <div class="country-list-item__flag">
+                                  <div class="flag flag--austria"></div>
+                              </div>
+                              <div class="country-list-item__name">
+                                  Австрия
+                              </div>
+                            </div>
+                            <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                              <div class="country-list-item__flag">
+                                  <div class="flag flag--argentina"></div>
+                              </div>
+                              <div class="country-list-item__name">
+                                  Аргентина
+                              </div>
+                            </div>
+                            <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                              <div class="country-list-item__flag">
+                                  <div class="flag flag--belarus"></div>
+                              </div>
+                              <div class="country-list-item__name">
+                                  Беларусь
+                              </div>
+                            </div>
+                            <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                              <div class="country-list-item__flag">
+                                  <div class="flag flag--bolgaria"></div>
+                              </div>
+                              <div class="country-list-item__name">
+                                  Болгария
+                              </div>
+                            </div>
+                            <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                              <div class="country-list-item__flag">
+                                  <div class="flag flag--brazil"></div>
+                              </div>
+                              <div class="country-list-item__name">
+                                  Бразилия
+                              </div>
+                            </div>
+                            <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                          <div class="country-list-item__flag">
+                              <div class="flag flag--vietnam"></div>
+                          </div>
+                          <div class="country-list-item__name">
+                              Вьетнам
+                          </div>
+                        </div>
+                        </div>
+                          <div class="swiper-slide">
+                              <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                                  <div class="country-list-item__flag">
+                                      <div class="flag flag--austria"></div>
+                                  </div>
+                                  <div class="country-list-item__name">
+                                      Австрия
+                                  </div>
+                              </div>
+                              <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                                  <div class="country-list-item__flag">
+                                      <div class="flag flag--argentina"></div>
+                                  </div>
+                                  <div class="country-list-item__name">
+                                      Аргентина
+                                  </div>
+                              </div>
+                              <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                                  <div class="country-list-item__flag">
+                                      <div class="flag flag--belarus"></div>
+                                  </div>
+                                  <div class="country-list-item__name">
+                                      Беларусь
+                                  </div>
+                              </div>
+                              <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                                  <div class="country-list-item__flag">
+                                      <div class="flag flag--bolgaria"></div>
+                                  </div>
+                                  <div class="country-list-item__name">
+                                      Болгария
+                                  </div>
+                              </div>
+                              <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                                  <div class="country-list-item__flag">
+                                      <div class="flag flag--brazil"></div>
+                                  </div>
+                                  <div class="country-list-item__name">
+                                      Бразилия
+                                  </div>
+                              </div>
+                              <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                                  <div class="country-list-item__flag">
+                                      <div class="flag flag--vietnam"></div>
+                                  </div>
+                                  <div class="country-list-item__name">
+                                      Вьетнам
+                                  </div>
+                              </div>
+                          </div>
+                      </div>
+                      <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="section-footer mobile-only">
+                        <a href="#" class="btn btn-blue">Все страны</a>
+                    </div>
+                </section>
+                <section>
+                    <div class="section-title">
+                        Астрономия на курортах мира
+                        <div class="section-title__btn desktop-only">
+                            <a href="#" class="btn btn-blue">Все курорты</a>
+                        </div>
+                    </div>
+
+                    <div class="swiper country-list js-resort-list">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                                    <div class="country-list-item__flag">
+                                        <div class="flag flag--austria"></div>
+                                    </div>
+                                    <div class="country-list-item__name">
+                                        Австрия
+                                    </div>
+                                </div>
+                                <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                                    <div class="country-list-item__flag">
+                                        <div class="flag flag--argentina"></div>
+                                    </div>
+                                    <div class="country-list-item__name">
+                                        Аргентина
+                                    </div>
+                                </div>
+                                <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                                    <div class="country-list-item__flag">
+                                        <div class="flag flag--belarus"></div>
+                                    </div>
+                                    <div class="country-list-item__name">
+                                        Беларусь
+                                    </div>
+                                </div>
+                                <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                                    <div class="country-list-item__flag">
+                                        <div class="flag flag--bolgaria"></div>
+                                    </div>
+                                    <div class="country-list-item__name">
+                                        Болгария
+                                    </div>
+                                </div>
+                                <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                                    <div class="country-list-item__flag">
+                                        <div class="flag flag--brazil"></div>
+                                    </div>
+                                    <div class="country-list-item__name">
+                                        Бразилия
+                                    </div>
+                                </div>
+                                <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                                    <div class="country-list-item__flag">
+                                        <div class="flag flag--vietnam"></div>
+                                    </div>
+                                    <div class="country-list-item__name">
+                                        Вьетнам
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                                    <div class="country-list-item__flag">
+                                        <div class="flag flag--austria"></div>
+                                    </div>
+                                    <div class="country-list-item__name">
+                                        Австрия
+                                    </div>
+                                </div>
+                                <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                                    <div class="country-list-item__flag">
+                                        <div class="flag flag--argentina"></div>
+                                    </div>
+                                    <div class="country-list-item__name">
+                                        Аргентина
+                                    </div>
+                                </div>
+                                <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                                    <div class="country-list-item__flag">
+                                        <div class="flag flag--belarus"></div>
+                                    </div>
+                                    <div class="country-list-item__name">
+                                        Беларусь
+                                    </div>
+                                </div>
+                                <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                                    <div class="country-list-item__flag">
+                                        <div class="flag flag--bolgaria"></div>
+                                    </div>
+                                    <div class="country-list-item__name">
+                                        Болгария
+                                    </div>
+                                </div>
+                                <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                                    <div class="country-list-item__flag">
+                                        <div class="flag flag--brazil"></div>
+                                    </div>
+                                    <div class="country-list-item__name">
+                                        Бразилия
+                                    </div>
+                                </div>
+                                <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                                    <div class="country-list-item__flag">
+                                        <div class="flag flag--vietnam"></div>
+                                    </div>
+                                    <div class="country-list-item__name">
+                                        Вьетнам
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                                    <div class="country-list-item__flag">
+                                        <div class="flag flag--austria"></div>
+                                    </div>
+                                    <div class="country-list-item__name">
+                                        Австрия
+                                    </div>
+                                </div>
+                                <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                                    <div class="country-list-item__flag">
+                                        <div class="flag flag--argentina"></div>
+                                    </div>
+                                    <div class="country-list-item__name">
+                                        Аргентина
+                                    </div>
+                                </div>
+                                <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                                    <div class="country-list-item__flag">
+                                        <div class="flag flag--belarus"></div>
+                                    </div>
+                                    <div class="country-list-item__name">
+                                        Беларусь
+                                    </div>
+                                </div>
+                                <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                                    <div class="country-list-item__flag">
+                                        <div class="flag flag--bolgaria"></div>
+                                    </div>
+                                    <div class="country-list-item__name">
+                                        Болгария
+                                    </div>
+                                </div>
+                                <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                                    <div class="country-list-item__flag">
+                                        <div class="flag flag--brazil"></div>
+                                    </div>
+                                    <div class="country-list-item__name">
+                                        Бразилия
+                                    </div>
+                                </div>
+                                <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                                    <div class="country-list-item__flag">
+                                        <div class="flag flag--vietnam"></div>
+                                    </div>
+                                    <div class="country-list-item__name">
+                                        Вьетнам
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                                    <div class="country-list-item__flag">
+                                        <div class="flag flag--austria"></div>
+                                    </div>
+                                    <div class="country-list-item__name">
+                                        Австрия
+                                    </div>
+                                </div>
+                                <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                                    <div class="country-list-item__flag">
+                                        <div class="flag flag--argentina"></div>
+                                    </div>
+                                    <div class="country-list-item__name">
+                                        Аргентина
+                                    </div>
+                                </div>
+                                <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                                    <div class="country-list-item__flag">
+                                        <div class="flag flag--belarus"></div>
+                                    </div>
+                                    <div class="country-list-item__name">
+                                        Беларусь
+                                    </div>
+                                </div>
+                                <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                                    <div class="country-list-item__flag">
+                                        <div class="flag flag--bolgaria"></div>
+                                    </div>
+                                    <div class="country-list-item__name">
+                                        Болгария
+                                    </div>
+                                </div>
+                                <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                                    <div class="country-list-item__flag">
+                                        <div class="flag flag--brazil"></div>
+                                    </div>
+                                    <div class="country-list-item__name">
+                                        Бразилия
+                                    </div>
+                                </div>
+                                <div class="country-list-item">
+                             <a href="#" class="country-list-item__link"></a>
+                                    <div class="country-list-item__flag">
+                                        <div class="flag flag--vietnam"></div>
+                                    </div>
+                                    <div class="country-list-item__name">
+                                        Вьетнам
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                    <div class="section-footer mobile-only">
+                        <a href="#" class="btn btn-blue">Все курорты</a>
+                    </div>
+                </section>
+                <section>
+                    <div class="section-title">Геомагнитная обстановка в городах на карте</div>
+                    <div class="geo-map">
+                        <div style="position:relative;overflow:hidden;"><a href="https://yandex.ru/maps/213/moscow/?utm_medium=mapframe&utm_source=maps" style="color:#eee;font-size:12px;position:absolute;top:0px;">Москва</a><a href="https://yandex.ru/maps/213/moscow/?ll=37.617700%2C55.755863&utm_medium=mapframe&utm_source=maps&z=10" style="color:#eee;font-size:12px;position:absolute;top:14px;">Яндекс Карты — транспорт, навигация, поиск мест</a><iframe src="https://yandex.ru/map-widget/v1/?ll=37.617700%2C55.755863&z=10" width="560" height="400" frameborder="1" allowfullscreen="true" style="position:relative;"></iframe></div>
+                    </div>
+                    <h2>Геомагнитная обстановка в популярных городах</h2>
+                    <div class="weather-by-city swiper js-geomagnit-city-slider">
+                        <div class="swiper-wrapper">
+                            <div class="swiper-slide">
+                                <div class="weather-by-city-item">
+                                    <a href="#" class="weather-by-city-item__link"></a>
+                                    <div class="weather-by-city-item__city">
+                                        <span>Адлер</span>
+                                    </div>
+                                    <div class="weather-by-city-item__temperature">
+                                        +13°
+                                    </div>
+                                    <div class="weather-by-city-item__rate">
+                                        <div class="weather-rate weather-rate--0 is-small">0</div>
+                                    </div>
+                                </div>
+                                <div class="weather-by-city-item">
+                                    <a href="#" class="weather-by-city-item__link"></a>
+                                    <div class="weather-by-city-item__city">
+                                        <span>Анапа</span>
+                                    </div>
+                                    <div class="weather-by-city-item__temperature">
+                                        +16°
+                                    </div>
+                                    <div class="weather-by-city-item__rate">
+                                        <div class="weather-rate weather-rate--1 is-small">1</div>
+                                    </div>
+                                </div>
+                                <div class="weather-by-city-item">
+                                    <a href="#" class="weather-by-city-item__link"></a>
+                                    <div class="weather-by-city-item__city">
+                                        <span>Архангельск</span>
+                                    </div>
+                                    <div class="weather-by-city-item__temperature">
+                                        +19°
+                                    </div>
+                                    <div class="weather-by-city-item__rate">
+                                        <div class="weather-rate weather-rate--2 is-small">2</div>
+                                    </div>
+                                </div>
+                                <div class="weather-by-city-item">
+                                    <a href="#" class="weather-by-city-item__link"></a>
+                                    <div class="weather-by-city-item__city">
+                                        <span>Барнаул</span>
+                                    </div>
+                                    <div class="weather-by-city-item__temperature">
+                                        +13°
+                                    </div>
+                                    <div class="weather-by-city-item__rate">
+                                        <div class="weather-rate weather-rate--7 is-small">7</div>
+                                    </div>
+                                </div>
+                                <div class="weather-by-city-item">
+                                    <a href="#" class="weather-by-city-item__link"></a>
+                                    <div class="weather-by-city-item__city">
+                                        <span>Барнаул</span>
+                                    </div>
+                                    <div class="weather-by-city-item__temperature">
+                                        +13°
+                                    </div>
+                                    <div class="weather-by-city-item__rate">
+                                        <div class="weather-rate weather-rate--7 is-small">7</div>
+                                    </div>
+                                </div>
+                                <div class="weather-by-city-item">
+                                    <a href="#" class="weather-by-city-item__link"></a>
+                                    <div class="weather-by-city-item__city">
+                                        <span>Анапа</span>
+                                    </div>
+                                    <div class="weather-by-city-item__temperature">
+                                        +16°
+                                    </div>
+                                    <div class="weather-by-city-item__rate">
+                                        <div class="weather-rate weather-rate--1 is-small">1</div>
+                                    </div>
+                                </div>
+                                <div class="weather-by-city-item">
+                                    <a href="#" class="weather-by-city-item__link"></a>
+                                    <div class="weather-by-city-item__city">
+                                        <span>Архангельск</span>
+                                    </div>
+                                    <div class="weather-by-city-item__temperature">
+                                        +19°
+                                    </div>
+                                    <div class="weather-by-city-item__rate">
+                                        <div class="weather-rate weather-rate--2 is-small">2</div>
+                                    </div>
+                                </div>
+                                <div class="weather-by-city-item">
+                                    <a href="#" class="weather-by-city-item__link"></a>
+                                    <div class="weather-by-city-item__city">
+                                        <span>Барнаул</span>
+                                    </div>
+                                    <div class="weather-by-city-item__temperature">
+                                        +13°
+                                    </div>
+                                    <div class="weather-by-city-item__rate">
+                                        <div class="weather-rate weather-rate--7 is-small">7</div>
+                                    </div>
+                                </div>
+                                <div class="weather-by-city-item">
+                                    <div class="weather-by-city-item__city">
+                                        <a href="#" class="weather-by-city-item__link"></a>
+                                        <span>Барнаул</span>
+                                    </div>
+                                    <div class="weather-by-city-item__temperature">
+                                        +13°
+                                    </div>
+                                    <div class="weather-by-city-item__rate">
+                                        <div class="weather-rate weather-rate--7 is-small">7</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="weather-by-city-item">
+                                    <a href="#" class="weather-by-city-item__link"></a>
+                                    <div class="weather-by-city-item__city">
+                                        <span>Анапа</span>
+                                    </div>
+                                    <div class="weather-by-city-item__temperature">
+                                        +16°
+                                    </div>
+                                    <div class="weather-by-city-item__rate">
+                                        <div class="weather-rate weather-rate--1 is-small">1</div>
+                                    </div>
+                                </div>
+                                <div class="weather-by-city-item">
+                                    <a href="#" class="weather-by-city-item__link"></a>
+                                    <div class="weather-by-city-item__city">
+                                        <span>Архангельск</span>
+                                    </div>
+                                    <div class="weather-by-city-item__temperature">
+                                        +19°
+                                    </div>
+                                    <div class="weather-by-city-item__rate">
+                                        <div class="weather-rate weather-rate--2 is-small">2</div>
+                                    </div>
+                                </div>
+                                <div class="weather-by-city-item">
+                                    <a href="#" class="weather-by-city-item__link"></a>
+                                    <div class="weather-by-city-item__city">
+                                        <span>Барнаул</span>
+                                    </div>
+                                    <div class="weather-by-city-item__temperature">
+                                        +13°
+                                    </div>
+                                    <div class="weather-by-city-item__rate">
+                                        <div class="weather-rate weather-rate--7 is-small">7</div>
+                                    </div>
+                                </div>
+                                <div class="weather-by-city-item">
+                                    <a href="#" class="weather-by-city-item__link"></a>
+                                    <div class="weather-by-city-item__city">
+                                        <span>Барнаул</span>
+                                    </div>
+                                    <div class="weather-by-city-item__temperature">
+                                        +13°
+                                    </div>
+                                    <div class="weather-by-city-item__rate">
+                                        <div class="weather-rate weather-rate--7 is-small">7</div>
+                                    </div>
+                                </div>
+                                <div class="weather-by-city-item">
+                                    <a href="#" class="weather-by-city-item__link"></a>
+                                    <div class="weather-by-city-item__city">
+                                        <span>Анапа</span>
+                                    </div>
+                                    <div class="weather-by-city-item__temperature">
+                                        +16°
+                                    </div>
+                                    <div class="weather-by-city-item__rate">
+                                        <div class="weather-rate weather-rate--1 is-small">1</div>
+                                    </div>
+                                </div>
+                                <div class="weather-by-city-item">
+                                    <a href="#" class="weather-by-city-item__link"></a>
+                                    <div class="weather-by-city-item__city">
+                                        <span>Архангельск</span>
+                                    </div>
+                                    <div class="weather-by-city-item__temperature">
+                                        +19°
+                                    </div>
+                                    <div class="weather-by-city-item__rate">
+                                        <div class="weather-rate weather-rate--2 is-small">2</div>
+                                    </div>
+                                </div>
+                                <div class="weather-by-city-item">
+                                    <a href="#" class="weather-by-city-item__link"></a>
+                                    <div class="weather-by-city-item__city">
+                                        <span>Барнаул</span>
+                                    </div>
+                                    <div class="weather-by-city-item__temperature">
+                                        +13°
+                                    </div>
+                                    <div class="weather-by-city-item__rate">
+                                        <div class="weather-rate weather-rate--7 is-small">7</div>
+                                    </div>
+                                </div>
+                                <div class="weather-by-city-item">
+                                    <a href="#" class="weather-by-city-item__link"></a>
+                                    <div class="weather-by-city-item__city">
+                                        <span>Барнаул</span>
+                                    </div>
+                                    <div class="weather-by-city-item__temperature">
+                                        +13°
+                                    </div>
+                                    <div class="weather-by-city-item__rate">
+                                        <div class="weather-rate weather-rate--7 is-small">7</div>
+                                    </div>
+                                </div>
+                                <div class="weather-by-city-item">
+                                    <a href="#" class="weather-by-city-item__link"></a>
+                                    <div class="weather-by-city-item__city">
+                                        <span>Анапа</span>
+                                    </div>
+                                    <div class="weather-by-city-item__temperature">
+                                        +16°
+                                    </div>
+                                    <div class="weather-by-city-item__rate">
+                                        <div class="weather-rate weather-rate--1 is-small">1</div>
+                                    </div>
+                                </div>
+                            </div>
+                            <div class="swiper-slide">
+                                <div class="weather-by-city-item">
+                                    <a href="#" class="weather-by-city-item__link"></a>
+                                    <div class="weather-by-city-item__city">
+                                        <span>Архангельск</span>
+                                    </div>
+                                    <div class="weather-by-city-item__temperature">
+                                        +19°
+                                    </div>
+                                    <div class="weather-by-city-item__rate">
+                                        <div class="weather-rate weather-rate--2 is-small">2</div>
+                                    </div>
+                                </div>
+                                <div class="weather-by-city-item">
+                                    <a href="#" class="weather-by-city-item__link"></a>
+                                    <div class="weather-by-city-item__city">
+                                        <span>Барнаул</span>
+                                    </div>
+                                    <div class="weather-by-city-item__temperature">
+                                        +13°
+                                    </div>
+                                    <div class="weather-by-city-item__rate">
+                                        <div class="weather-rate weather-rate--7 is-small">7</div>
+                                    </div>
+                                </div>
+                                <div class="weather-by-city-item">
+                                    <a href="#" class="weather-by-city-item__link"></a>
+                                    <div class="weather-by-city-item__city">
+                                        <span>Барнаул</span>
+                                    </div>
+                                    <div class="weather-by-city-item__temperature">
+                                        +13°
+                                    </div>
+                                    <div class="weather-by-city-item__rate">
+                                        <div class="weather-rate weather-rate--7 is-small">7</div>
+                                    </div>
+                                </div>
+                                <div class="weather-by-city-item">
+                                    <a href="#" class="weather-by-city-item__link"></a>
+                                    <div class="weather-by-city-item__city">
+                                        <span>Анапа</span>
+                                    </div>
+                                    <div class="weather-by-city-item__temperature">
+                                        +16°
+                                    </div>
+                                    <div class="weather-by-city-item__rate">
+                                        <div class="weather-rate weather-rate--1 is-small">1</div>
+                                    </div>
+                                </div>
+                                <div class="weather-by-city-item">
+                                    <a href="#" class="weather-by-city-item__link"></a>
+                                    <div class="weather-by-city-item__city">
+                                        <span>Архангельск</span>
+                                    </div>
+                                    <div class="weather-by-city-item__temperature">
+                                        +19°
+                                    </div>
+                                    <div class="weather-by-city-item__rate">
+                                        <div class="weather-rate weather-rate--2 is-small">2</div>
+                                    </div>
+                                </div>
+                                <div class="weather-by-city-item">
+                                    <a href="#" class="weather-by-city-item__link"></a>
+                                    <div class="weather-by-city-item__city">
+                                        <span>Барнаул</span>
+                                    </div>
+                                    <div class="weather-by-city-item__temperature">
+                                        +13°
+                                    </div>
+                                    <div class="weather-by-city-item__rate">
+                                        <div class="weather-rate weather-rate--7 is-small">7</div>
+                                    </div>
+                                </div>
+                                <div class="weather-by-city-item">
+                                    <a href="#" class="weather-by-city-item__link"></a>
+                                    <div class="weather-by-city-item__city">
+                                        <span>Барнаул</span>
+                                    </div>
+                                    <div class="weather-by-city-item__temperature">
+                                        +13°
+                                    </div>
+                                    <div class="weather-by-city-item__rate">
+                                        <div class="weather-rate weather-rate--7 is-small">7</div>
+                                    </div>
+                                </div>
+                                <div class="weather-by-city-item">
+                                    <a href="#" class="weather-by-city-item__link"></a>
+                                    <div class="weather-by-city-item__city">
+                                        <span>Барнаул</span>
+                                    </div>
+                                    <div class="weather-by-city-item__temperature">
+                                        +13°
+                                    </div>
+                                    <div class="weather-by-city-item__rate">
+                                        <div class="weather-rate weather-rate--7 is-small">7</div>
+                                    </div>
+                                </div>
+                                <div class="weather-by-city-item">
+                                    <a href="#" class="weather-by-city-item__link"></a>
+                                    <div class="weather-by-city-item__city">
+                                        <span>Анапа</span>
+                                    </div>
+                                    <div class="weather-by-city-item__temperature">
+                                        +16°
+                                    </div>
+                                    <div class="weather-by-city-item__rate">
+                                        <div class="weather-rate weather-rate--1 is-small">1</div>
+                                    </div>
+                                </div>
+                            </div>
+                        </div>
+                        <div class="swiper-pagination"></div>
+                    </div>
+                </section>
+            </div>
+            <div class="col-sidebar">
+                <div class="sidebar-block">
+                    <div class="sidebar-block__title">Быстрое меню</div>
+                    <ul class="sidebar-block__links">
+                        <li><a class="sidebar-block__links-item" href="#">Страны мира</a></li>
+                        <li><a class="sidebar-block__links-item" href="#">Столицы мира</a></li>
+                    </ul>
+                </div>
+
+            </div>
+        </div>
+    </div>
+</main>
+
+<footer>
+    <div class="container">
+        <div class="footer">
+            <div class="footer-copyrights">
+                © Meteo notes, 2023
+            </div>
+            <div class="footer-links">
+                <a href="#">Пользовательское соглашение</a>
+                <a href="#">О сайте</a>
+            </div>
+        </div>
+
+    </div>
+</footer>
+
 <script src="https://code.jquery.com/jquery-3.7.0.min.js"></script>
+
+<script src="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.js"></script>
 <link
         rel="stylesheet"
         href="https://cdn.jsdelivr.net/npm/swiper@10/swiper-bundle.min.css"/>
+
 <script src="js/main.js"></script>
 
 </body>
