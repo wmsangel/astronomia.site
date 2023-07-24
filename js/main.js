@@ -106,4 +106,21 @@ $(function (){
         }, 300)
     })
 
+    // SORT
+    body.on('click', '.js-ab-sort-link', function (e) {
+        e.preventDefault();
+        let current = $(this).data('sort');
+
+        if (!$(this).hasClass('ab-sort-item__link--selected') && current != 'all') {
+            $('.js-ab-sort-link').removeClass('ab-sort-item__link--selected');
+            $(this).addClass('ab-sort-item__link--selected');
+            $('.js-ab-sort-result').removeClass('ab-sort-result--selected')
+            $('.js-ab-sort-result[data-sort="'+current+'"]').addClass('ab-sort-result--selected')
+        } else if (current == 'all') {
+            $('.js-ab-sort-link').removeClass('ab-sort-item__link--selected');
+            $(this).addClass('ab-sort-item__link--selected');
+            $('.js-ab-sort-result').addClass('ab-sort-result--selected')
+        }
+    })
+
 })
